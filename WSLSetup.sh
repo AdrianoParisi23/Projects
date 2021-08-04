@@ -10,4 +10,5 @@ sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ focal-pgdg main" 
 sudo apt update
 sudo apt -y install postgresql-12 postgresql-client-12
 sudo apt -y install postgresql-server-dev-12
-sudo apt-get install libgtest-dev
+sudo apt -y install libgtest-dev
+sudo apt -y install qttools5-dev-tools
