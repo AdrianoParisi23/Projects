@@ -12,3 +12,7 @@ sudo apt -y install postgresql-12 postgresql-client-12
 sudo apt -y install postgresql-server-dev-12
 sudo apt -y install libgtest-dev
 sudo apt -y install qttools5-dev-tools
+
+wget https://download.qt.io/official_releases/qtdesignstudio/2.1.0/qt-designstudio-linux-x86_64-2.1.0-community.run
+sudo chmod +x qt-designstudio-linux-x86_64-2.1.0-community.run
+./qt-designstudio-linux-x86_64-2.1.0-community.run
